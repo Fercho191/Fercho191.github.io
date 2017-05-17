@@ -210,7 +210,7 @@
     return false;
   });
 
-
+  // Tooltips
 
   // Map Location
 
@@ -275,3 +275,7 @@
 
 
 })(jQuery);
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
